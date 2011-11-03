@@ -1,3 +1,9 @@
+# revision 22930
+# category Package
+# catalog-ctan /info/translations/amsmath/it
+# catalog-date 2011-03-29 16:35:51 +0200
+# catalog-license noinfo
+# catalog-version undef
 Name:		texlive-amsmath-it
 Version:	20110329
 Release:	1
@@ -22,6 +28,7 @@ amsmath.faq of March 2000.
 %doc %{_texmfdistdir}/doc/latex/amsmath-it/README
 %doc %{_texmfdistdir}/doc/latex/amsmath-it/amsmath.faq
 %doc %{_texmfdistdir}/doc/latex/amsmath-it/diffs-m_it.txt
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -32,3 +39,5 @@ amsmath.faq of March 2000.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
