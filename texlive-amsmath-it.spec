@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath-it.doc.ta
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 The documents are: diffs-m.txt of December 1999, and
@@ -28,7 +26,6 @@ amsmath.faq of March 2000.
 %doc %{_texmfdistdir}/doc/latex/amsmath-it/README
 %doc %{_texmfdistdir}/doc/latex/amsmath-it/amsmath.faq
 %doc %{_texmfdistdir}/doc/latex/amsmath-it/diffs-m_it.txt
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -39,5 +36,3 @@ amsmath.faq of March 2000.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
