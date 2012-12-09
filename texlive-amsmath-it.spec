@@ -36,3 +36,17 @@ amsmath.faq of March 2000.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 20110329-2
++ Revision: 749226
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20110329-1
++ Revision: 717826
+- texlive-amsmath-it
+- texlive-amsmath-it
+- texlive-amsmath-it
+- texlive-amsmath-it
+
