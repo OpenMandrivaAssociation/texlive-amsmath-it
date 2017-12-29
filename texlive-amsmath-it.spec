@@ -5,8 +5,8 @@
 # catalog-license noinfo
 # catalog-version undef
 Name:		texlive-amsmath-it
-Version:	20110329
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	Italian translations of some old AMSmath documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/amsmath/it
