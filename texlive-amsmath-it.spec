@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-amsmath-it
 Version:	20180303
-Release:	1
+Release:	2
 Summary:	Italian translations of some old AMSmath documents
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/amsmath/it
