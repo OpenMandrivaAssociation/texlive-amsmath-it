@@ -3,7 +3,7 @@ Version:	22930
 Release:	2
 Summary:	Italian translations of some old AMSmath documents
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/amsmath/it
+URL:		https://www.ctan.org/tex-archive/info/translations/amsmath/it
 License:	NOINFO
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath-it.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/amsmath-it.doc.r%{version}.tar.xz
